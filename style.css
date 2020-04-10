@@ -1,0 +1,22 @@
+.grid {
+	display:flex;
+	flex-flow: row wrap;
+	flex-wrap:wrap;
+	height:618px;
+	width:618px;
+}
+
+.square {
+	width:200px;
+	height: 200px;
+	border-color:black;
+	border-style:solid;	
+	justify-content: center;
+	align-content: center;
+}
+
+.mole {
+	background-image: url('picachu.png');
+	background-size:cover;
+	
+}
